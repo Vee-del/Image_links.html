@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+            display: block;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    
+    <!--Home Section-->
+    <section id="Home">
+        <h1>Welcome to our Blog page!</h1>
+        <p>Feel free to navigate through our posts and blogs.</p>
+        <a href="https://images.app.goo.gl/WHmR8xq8T6DKGe6m7" target="_blank">
+            <img src="blog_image1.jpg" alt="A person reading">
+        </a>
+    </section>
+
+    <!--Gallery Section-->
+    <section id="Gallery">
+        <h2>Blog glossary</h2>
+        <p>You are welcome to view our page's gallery.</p>
+        <div>
+            <a href="https://images.app.goo.gl/i37JCGESkyXCN6k37" target="_blank">
+                <img src="blog_image2.jpg" alt="Blog Image 2">
+            </a>
+            <a href="https://images.app.goo.gl/LXMh3ETQkwFJqKjD6" target="_blank">
+                <img src="blog_image3.jpg" alt="Blog Image 3">
+            </a>
+             <a href="https://images.app.goo.gl/QJJyxb9jq4Kzzrku6" target="_blank">
+                <img src="blog_image4.jpg" atl="Blog Image 4">
+            </a>
+        </div>
+    </section>
+    <!--Menu Section-->
+    ,<section id="Menu">
+        <h2>Resourceful Articles headers</h2>
+        <ul>
+            <li>
+                <a href="https://images.app.goo.gl/uYriTjKrTy3phHLd9" target="_blank">
+                    <img src="Article_image.jpg" alt="Article Image 1">
+                    War Victims
+                </a>
+            </li>
+            <li>
+                <a href="https://images.app.goo.gl/Pkch8rL9GDMsMXet7" target="_blank">
+                    <img src="Article_image2.jpg" alt="Article Image 2">
+                    Femicide
+                </a>
+            </li>
+            <li>
+                <a href="https://images.app.goo.gl/e1UbqjW3TpwExC759" target="_blank">
+                    <img src="Article_image3.jpg" alt=" Atricle Image 3">
+                    Corruption
+                </a>
+            </li>
+        </ul>
+    </section>
+    
+</body>
+</html>
